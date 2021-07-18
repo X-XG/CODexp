@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 12 18:36:26 2021
+# Process ID: 2596
+# Current directory: C:/CODexp/Lab2/RegisterFile/RegisterFile.runs/dist_mem_gen_1_synth_1
+# Command line: vivado.exe -log dist_mem_gen_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_1.tcl
+# Log file: C:/CODexp/Lab2/RegisterFile/RegisterFile.runs/dist_mem_gen_1_synth_1/dist_mem_gen_1.vds
+# Journal file: C:/CODexp/Lab2/RegisterFile/RegisterFile.runs/dist_mem_gen_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dist_mem_gen_1.tcl -notrace

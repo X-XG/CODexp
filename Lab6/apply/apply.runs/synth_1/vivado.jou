@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jun  9 17:55:55 2021
+# Process ID: 13148
+# Current directory: C:/CODexp/Lab6/apply/apply.runs/synth_1
+# Command line: vivado.exe -log sort.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sort.tcl
+# Log file: C:/CODexp/Lab6/apply/apply.runs/synth_1/sort.vds
+# Journal file: C:/CODexp/Lab6/apply/apply.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sort.tcl -notrace

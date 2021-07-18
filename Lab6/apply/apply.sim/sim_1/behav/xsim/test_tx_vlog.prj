@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../apply.srcs/sources_1/ip/data_mem/sim/data_mem.v" \
+"../../../../apply.srcs/sources_1/ip/instruction_mem/sim/instruction_mem.v" \
+"../../../../apply.srcs/sources_1/imports/new/ALU.v" \
+"../../../../apply.srcs/sources_1/imports/new/CPU.v" \
+"../../../../apply.srcs/sources_1/imports/new/Control.v" \
+"../../../../apply.srcs/sources_1/imports/new/EXMEM.v" \
+"../../../../apply.srcs/sources_1/imports/new/Forwarding.v" \
+"../../../../apply.srcs/sources_1/imports/new/Hazard.v" \
+"../../../../apply.srcs/sources_1/imports/new/IDEX.v" \
+"../../../../apply.srcs/sources_1/imports/new/IFID.v" \
+"../../../../apply.srcs/sources_1/imports/new/ImmGen.v" \
+"../../../../apply.srcs/sources_1/imports/new/MEMWB.v" \
+"../../../../apply.srcs/sources_1/imports/new/Registers.v" \
+"../../../../apply.srcs/sources_1/imports/new/WBIF.v" \
+"../../../../apply.srcs/sources_1/new/cache.v" \
+"../../../../apply.srcs/sources_1/imports/new/rx.v" \
+"../../../../apply.srcs/sources_1/new/sort.v" \
+"../../../../apply.srcs/sources_1/imports/new/tx.v" \
+"../../../../apply.srcs/sim_1/new/test_tx.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

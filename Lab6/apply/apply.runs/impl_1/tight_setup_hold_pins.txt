@@ -1,0 +1,12 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[7]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[4]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[3]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[5]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                             cpu/predirctBR/valid_reg[6]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

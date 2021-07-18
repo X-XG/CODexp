@@ -1,0 +1,20 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/CODexp/Lab5/CPU5/CPU5.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sim_1/new/sim_debug.v,1620921367,verilog,,,,sim_debug,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v,1620876538,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/CPU.v,,ALU,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ImmGen.v,1619416351,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/MEMWB.v,,ImmGen,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/Registers.v,1619404729,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/WBIF.v,,Registers,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/ip/data_mem/sim/data_mem.v,1620904828,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/ip/instruction_mem/sim/instruction_mem.v,,data_mem,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/ip/instruction_mem/sim/instruction_mem.v,1622545745,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ALU.v,,instruction_mem,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/CPU.v,1620976836,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/Control.v,,CPU,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/Control.v,1620808465,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/EXMEM.v,,Control,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/EXMEM.v,1620784516,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/Forwarding.v,,EXMEM,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/Forwarding.v,1620832219,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/Hazard.v,,Forwarding,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/Hazard.v,1620976111,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/IDEX.v,,Hazard,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/IDEX.v,1620881048,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/IFID.v,,IDEX,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/IFID.v,1620870431,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/ImmGen.v,,IFID,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/MEMWB.v,1620811832,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/imports/new/Registers.v,,MEMWB,,,,,,,,
+C:/CODexp/Lab5/CPU5/CPU5.srcs/sources_1/new/WBIF.v,1620832047,verilog,,C:/CODexp/Lab5/CPU5/CPU5.srcs/sim_1/new/sim_debug.v,,WBIF,,,,,,,,

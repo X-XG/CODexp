@@ -1,0 +1,13 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/CODexp/Lab2/RegisterFile/RegisterFile.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/CODexp/Lab2/RegisterFile/RegisterFile.srcs/sim_1/new/testbench.v,1617960474,verilog,,,,testbench,,,,,,,,
+C:/CODexp/Lab2/RegisterFile/RegisterFile.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1617960732,verilog,,C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_blk.v,,blk_mem_gen_0,,,,,,,,
+C:/CODexp/Lab2/RegisterFile/RegisterFile.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1617960773,verilog,,C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_distributed.v,,dist_mem_gen_0,,,,,,,,
+C:/CODexp/Lab2/RegisterFile/RegisterFile.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,1618223782,verilog,,C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_distributed.v,,dist_mem_gen_1,,,,,,,,
+C:/CODexp/Lab2/RegisterFile/RegisterFile.srcs/sources_1/new/RF.v,1617960934,verilog,,C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_RF.v,,RF,,,,,,,,
+C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_RF.v,1618238035,verilog,,,,test_RF,,,,,,,,
+C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_blk.v,1618237621,verilog,,,,test_blk,,,,,,,,
+C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_distributed.v,1618237848,verilog,,,,test_distributed,,,,,,,,

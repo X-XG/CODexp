@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 12 22:21:51 2021
+# Process ID: 14588
+# Current directory: C:/CODexp/Lab2/RegisterFile
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6644 C:\CODexp\Lab2\RegisterFile\RegisterFile.xpr
+# Log file: C:/CODexp/Lab2/RegisterFile/vivado.log
+# Journal file: C:/CODexp/Lab2/RegisterFile\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/CODexp/Lab2/RegisterFile/RegisterFile.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test_blk.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_distributed [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source test_distributed.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_RF [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source test_RF.tcl
+close_sim
+launch_simulation
+source test_RF.tcl
+close_sim

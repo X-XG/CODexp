@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CPU5.srcs/sources_1/ip/data_mem/sim/data_mem.v" \
+"../../../../CPU5.srcs/sources_1/ip/instruction_mem/sim/instruction_mem.v" \
+"../../../../CPU5.srcs/sources_1/imports/new/ALU.v" \
+"../../../../CPU5.srcs/sources_1/new/CPU.v" \
+"../../../../CPU5.srcs/sources_1/new/Control.v" \
+"../../../../CPU5.srcs/sources_1/new/EXMEM.v" \
+"../../../../CPU5.srcs/sources_1/new/Forwarding.v" \
+"../../../../CPU5.srcs/sources_1/new/Hazard.v" \
+"../../../../CPU5.srcs/sources_1/new/IDEX.v" \
+"../../../../CPU5.srcs/sources_1/new/IFID.v" \
+"../../../../CPU5.srcs/sources_1/imports/new/ImmGen.v" \
+"../../../../CPU5.srcs/sources_1/new/MEMWB.v" \
+"../../../../CPU5.srcs/sources_1/imports/new/Registers.v" \
+"../../../../CPU5.srcs/sources_1/new/WBIF.v" \
+"../../../../CPU5.srcs/sim_1/new/sim_debug.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

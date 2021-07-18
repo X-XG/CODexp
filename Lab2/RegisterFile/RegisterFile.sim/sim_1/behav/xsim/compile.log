@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CODexp/Lab2/RegisterFile/RegisterFile.srcs/sources_1/new/RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/93416/Desktop/大二下/计组实验/暂存/Register File.xpr/Register File/Register File.srcs/sim_1/new/test_RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_RF

@@ -1,0 +1,33 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f28ef0971cbd499188a951c132259b17 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_tx_behav xil_defaultlib.test_tx xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.instruction_mem
+Compiling module xil_defaultlib.cache
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.Registers
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXMEM
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Forwarding
+Compiling module xil_defaultlib.WBIF
+Compiling module xil_defaultlib.Hazard
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.rx
+Compiling module xil_defaultlib.tx
+Compiling module xil_defaultlib.sort
+Compiling module xil_defaultlib.test_tx
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_tx_behav

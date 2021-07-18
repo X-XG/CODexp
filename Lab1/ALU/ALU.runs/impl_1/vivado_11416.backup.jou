@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Apr  2 00:45:04 2021
+# Process ID: 11416
+# Current directory: C:/CODexp/Lab1/ALU/ALU.runs/impl_1
+# Command line: vivado.exe -log Test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Test.tcl -notrace
+# Log file: C:/CODexp/Lab1/ALU/ALU.runs/impl_1/Test.vdi
+# Journal file: C:/CODexp/Lab1/ALU/ALU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Test.tcl -notrace

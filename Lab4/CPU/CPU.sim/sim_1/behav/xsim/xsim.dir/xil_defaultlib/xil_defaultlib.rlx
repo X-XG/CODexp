@@ -1,0 +1,21 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/CODexp/Lab4/CPU/CPU.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sim_1/new/debug.v,1619404476,verilog,,,,debug,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/imports/Digital Tube/decoder3_8.v,1605494181,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/imports/Sources/decoder4_7.v,,decoder3_8,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/imports/Sources/decoder4_7.v,1619430581,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/pdu_1cycle.v,,decoder4_7,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/ip/Data_memory/sim/Data_memory.v,1619522328,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/ip/Instruction_memory/sim/Instruction_memory.v,,Data_memory,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/ip/Instruction_memory/sim/Instruction_memory.v,1620287253,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/ALU.v,,Instruction_memory,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/ALU.v,1618984831,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/ALUcontrol.v,,ALU,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/ALUcontrol.v,1619417830,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Add.v,,ALUcontrol,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Add.v,1618985092,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/CPU.v,,Add,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/CPU.v,1619540670,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Control.v,,CPU,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Control.v,1619417837,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/ImmGen.v,,Control,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/ImmGen.v,1619416351,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/MUX.v,,ImmGen,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/MUX.v,1618985038,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/PC.v,,MUX,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/PC.v,1619446165,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Registers.v,,PC,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Registers.v,1619404729,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Shiftleft.v,,Registers,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/Shiftleft.v,1619416356,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/imports/Digital Tube/decoder3_8.v,,Shiftleft,,,,,,,,
+C:/CODexp/Lab4/CPU/CPU.srcs/sources_1/new/pdu_1cycle.v,1619444665,verilog,,C:/CODexp/Lab4/CPU/CPU.srcs/sim_1/new/debug.v,,pdu_1cycle,,,,,,,,

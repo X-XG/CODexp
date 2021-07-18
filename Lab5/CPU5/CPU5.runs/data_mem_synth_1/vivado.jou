@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu May 13 19:20:33 2021
+# Process ID: 12080
+# Current directory: C:/CODexp/Lab5/CPU5/CPU5.runs/data_mem_synth_1
+# Command line: vivado.exe -log data_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source data_mem.tcl
+# Log file: C:/CODexp/Lab5/CPU5/CPU5.runs/data_mem_synth_1/data_mem.vds
+# Journal file: C:/CODexp/Lab5/CPU5/CPU5.runs/data_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source data_mem.tcl -notrace

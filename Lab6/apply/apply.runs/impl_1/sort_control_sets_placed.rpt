@@ -1,0 +1,108 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun  9 17:58:14 2021
+| Host         : LAPTOP-7OCFO5ER running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file sort_control_sets_placed.rpt
+| Design       : sort
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    30 |
+|    Minimum number of control sets                        |    30 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   124 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    30 |
+| >= 0 to < 4        |     9 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    16 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             223 |           84 |
+| No           | No                    | Yes                    |              39 |           16 |
+| No           | Yes                   | No                     |             203 |           60 |
+| Yes          | No                    | No                     |             488 |          134 |
+| Yes          | No                    | Yes                    |              58 |           18 |
+| Yes          | Yes                   | No                     |             105 |           17 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------+--------------------+------------------+----------------+--------------+
+|  Clock Signal  |        Enable Signal        |  Set/Reset Signal  | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-----------------------------+--------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | RX/rx_reg_63_out            |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_reg_211_out           |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_reg_71_out            |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_reg_39_out            |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_reg_47_out            |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_reg_015_out           |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_reg_55_out            |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_reg_113_out           |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | TX/tx_i_1_n_0               | rst_IBUF           |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | RX/rx_cnt[3]_i_1_n_0        | rst_IBUF           |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | TX/tx_cnt0                  | rst_IBUF           |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | RX/rx_vld0                  | rst_IBUF           |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | TX/tx_rd0                   | rst_IBUF           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | cpu/Regs3/E[0]              |                    |                1 |              8 |         8.00 |
+|  clk_IBUF_BUFG |                             | cpu/Regs3/Q[10]    |               24 |             24 |         1.00 |
+|  clk_IBUF_BUFG | cpu/Regs2/ctrl_reg[13]_0[0] | rst_IBUF           |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG |                             | rst_IBUF           |               16 |             39 |         2.44 |
+|  clk_IBUF_BUFG | cpu/Regs2/E[0]              |                    |               16 |             59 |         3.69 |
+|  clk_IBUF_BUFG | cpu/Regs2/pce_reg[2]_0[0]   |                    |               15 |             59 |         3.93 |
+|  clk_IBUF_BUFG | cpu/Regs2/pce_reg[2]_1[0]   |                    |               13 |             59 |         4.54 |
+|  clk_IBUF_BUFG | cpu/Regs2/pce_reg[3]_1[0]   |                    |               13 |             59 |         4.54 |
+|  clk_IBUF_BUFG | cpu/Regs2/pce_reg[4]_0[0]   |                    |               19 |             59 |         3.11 |
+|  clk_IBUF_BUFG | cpu/Regs2/pce_reg[4]_1[0]   |                    |               16 |             59 |         3.69 |
+|  clk_IBUF_BUFG | cpu/Regs2/pce_reg[4]_2[0]   |                    |               18 |             59 |         3.28 |
+|  clk_IBUF_BUFG | cpu/Regs2/pce_reg[3]_0[0]   |                    |               15 |             59 |         3.93 |
+|  clk_IBUF_BUFG | cpu/Regs4/p_0_in__0         |                    |               12 |             96 |         8.00 |
+|  clk_IBUF_BUFG | cpu/Regs2/ctrl_reg[13]_0[0] | cpu/Regs2/SR[0]    |               17 |            105 |         6.18 |
+|  clk_IBUF_BUFG | cpu/Regs3/we                |                    |               32 |            128 |         4.00 |
+|  clk_IBUF_BUFG |                             | cpu/Regs2/this_clr |               36 |            179 |         4.97 |
+|  clk_IBUF_BUFG |                             |                    |               84 |            223 |         2.65 |
++----------------+-----------------------------+--------------------+------------------+----------------+--------------+
+
+

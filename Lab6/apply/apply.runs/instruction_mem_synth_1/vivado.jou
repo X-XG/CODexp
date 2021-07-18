@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jun  9 18:03:09 2021
+# Process ID: 18364
+# Current directory: C:/CODexp/Lab6/apply/apply.runs/instruction_mem_synth_1
+# Command line: vivado.exe -log instruction_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source instruction_mem.tcl
+# Log file: C:/CODexp/Lab6/apply/apply.runs/instruction_mem_synth_1/instruction_mem.vds
+# Journal file: C:/CODexp/Lab6/apply/apply.runs/instruction_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source instruction_mem.tcl -notrace
